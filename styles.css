@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Alegreya', serif;
+  font-size: 1.5em;
+  color: #655C56
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5rem;
+  color: #94D3AC;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #94D3AC;
+  font-weight: normal;
+  font-family: 'Alegreya', serif;
+}
+
+p {
+  line-height: 2
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.top-container {
+  background-color: #EFFCEF;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #CCEDD2;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+span {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+
+.footer-link {
+  color: #94D3AC;
+  padding:10px;
+  margin:5px;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color: #A1B6CC;
+}
+.copyright{
+  color:#A1B6CC;
+  font-size:1rem;
+  padding:20px 0;
+}
+.chinese {
+  font-family: 'Zhi Mang Xing', cursive;
+  font-weight: normal;
+  text-decoration:none;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.translate-icon {
+  width: 18%;
+  float: left;
+  margin-right: 30px;
+}
+
+.research-icon {
+  width: 18%;
+  float: right;
+  margin-left: 30px;
+}
+
+hr {
+  border-style: none none dotted;
+  height: 0;
+  width: 5%;
+  border-color: #A1B6CC;
+  border-width: 5px;
+  margin: 100px auto;
+}
+
+.btn {
+  background: linear-gradient(to bottom, #11CDD4 5%, #11999E 100%);
+  background-color: #11CDD4;
+  border-radius: 8px;
+  display: inline-block;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #30E3CB 5%, #2BC4AD 100%);
+  background-color: #30E3CB;
+}
+
+.contact-me {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
